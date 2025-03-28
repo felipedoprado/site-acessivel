@@ -176,7 +176,7 @@ h2 {
     background-color: var(--auto-contraste-fundo);
     color: var(--auto-contraste-texto);
 }
-.alto-contraste #tropicalia{
+.auto-contraste #tropicalia{
     background: none;
 }
 .auto-contraste #galeria{

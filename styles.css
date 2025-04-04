@@ -167,21 +167,21 @@ h2 {
 .apresenta-lista{
     display: none;
 }
-.auto-contraste{
-    background-color: var(--auto-contraste-fundo);
-    color: var(--auto-contraste-texto);
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
 }
-.auto-contraste header, 
-.auto-contraste footer,
-.auto-contraste .formulario{
-    background-color: var(--auto-contraste-fundo);
-    color: var(--auto-contraste-texto);
+.alto-contraste header, 
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
 }
-.auto-contraste #tropicalia{
+.alto-contraste #tropicalia{
     background: none;
 }
-.auto-contraste #galeria{
+.alto-contraste #galeria{
     background-color: var(--alto-contraste-fundo);
-} .auto-contraste .fundo-galeria{
+} .alto-contraste .fundo-galeria{
     background: none;
 }

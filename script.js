@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function(){
     const aumentaFonteBotao = document.getElementById('aumentar-fonte');
     const diminuiFonteBotao = document.getElementById('diminuir-fonte');
-
+   
     const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade')
     const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
-    
+
     const alternaContraste = this.getElementById('alterna-contraste')
 
     botaoDeAcessibilidade.addEventListener('click', function () {
@@ -25,3 +25,8 @@ document.addEventListener('DOMContentLoaded', function(){
         document.body.classList.toggle('alto-contraste')
     })
 });
+
+ScrollReveal().reveal('#inicio',{delay:500});
+ScrollReveal().reveal('#tropicalia',{delay:500});
+ScrollReveal().reveal('#galeria',{delay:500});
+ScrollReveal().reveal('#contato',{delay:500});
